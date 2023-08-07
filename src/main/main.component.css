@@ -1,5 +1,31 @@
 .container{
   background-image: url(https://github.com/amit-khatke/whatsapp-images/blob/main/main-background.jpg?raw=true);
-  height: 100px;
-  background-repeat: no-repeat;
+  background-color: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.main {
+  width: 93rem;
+  height: 43rem;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sidenav {
+  width: calc(93rem - 67.5%);
+  height: 43rem;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+.conversations {
+  width: calc(93rem - 32.5%);
+  height: 43rem;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
 }
