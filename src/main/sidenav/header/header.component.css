@@ -6,6 +6,10 @@
   background-color: #f0f2f5;
   padding: 1rem;
 }
+.avatar{
+  height: 3rem;
+  flex-basis: 3rem;
+}
 .menus{
   display: flex;
   justify-content: space-between;
