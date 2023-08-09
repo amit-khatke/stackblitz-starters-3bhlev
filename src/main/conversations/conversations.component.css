@@ -1,0 +1,34 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* margin-top:0.5rem ; */
+  height: 43.6rem;
+  /* background-color: rebeccapurple; */
+}
+.con-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 100%;
+  /* background-color: green; */
+}
+.msg-window{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36rem;
+  width: 100%;
+  /* background-color: #eee; */
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  /* background-color: aqua; */
+}

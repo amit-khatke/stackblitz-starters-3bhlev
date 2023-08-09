@@ -1,0 +1,45 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#f0f2f5;
+  height: 3.5rem;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.user{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 1rem;
+  width: 50%;
+  height: 3.5rem;
+}
+.avatar{
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem;
+}
+.avatar>img{
+  border-radius: 50%;
+}
+.name{
+  font-size: 1.2rem;
+}
+.menu{
+ display: flex;
+ flex-direction: row;
+ justify-content:flex-end;
+ align-items: center;
+ padding: 0  1rem;
+ width: 50%;
+ height: 3.5rem;
+}
+.menu > img{
+  margin-left: 2rem;
+}
+.dot{
+  height: 1.5rem;
+}
